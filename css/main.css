@@ -1,17 +1,10 @@
-
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 body{
 	font-family: "Montserrat";
-}
-.container {
-  margin: 0 auto;
-  width: 90%;
-}
-.container-fluid {
-  margin: 0 auto;
-  width: 100%;
-}
-.row{
-	max-width: 100%;
 }
 .head{
 	text-align: center;
@@ -20,6 +13,7 @@ body{
 .titulo{
 	color:#192951;
 	font-size: 30px;
+	margin: 20px 0;
 }
 .menu{
 	text-decoration: none;
@@ -27,7 +21,7 @@ body{
 }
 .menu1 li{
 	list-style: none;
-	margin:10px 40px;
+	margin:30px 40px;
 	display: inline-block;
 	font-size: 20px;
 }
@@ -102,8 +96,7 @@ body{
 	border-radius: 5px;
 	padding: 20px 120px;
 	position:absolute;
-	bottom:0
-	left:0;
+
 }
 .text3{
 	text-align: center;
@@ -145,10 +138,9 @@ body{
 }
 form{
 	width: 450px;
-	margin: auto;
+	margin: 30px auto;
 	padding: 10px 20px;
 	box-sizing: border-box;
-	margin-top:20px;
 	border-radius: 7px;
 }
 input, textarea{
@@ -157,6 +149,7 @@ input, textarea{
 	padding: 7px;
 	box-sizing: border-box;
 	font-size: 17px;
+	border:1px gray solid;
 }
 textarea{
 	height: 100px;
@@ -171,6 +164,7 @@ textarea{
 h2{
 	color:#192951;
 	font-size: 30px;
+	margin-bottom:40px;
 }
 .foot{
 	background-color: #192951;
@@ -180,3 +174,10 @@ h2{
 	font-size: 12px;
 	padding: 20px 0;
 }
+/*Para centrar*/
+  .column.large-centered,
+  .columns.large-centered {
+    margin-left: auto;
+    margin-right: auto;
+    float: none !important;
+  }
