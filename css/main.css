@@ -1,0 +1,182 @@
+
+body{
+	font-family: "Montserrat";
+}
+.container {
+  margin: 0 auto;
+  width: 90%;
+}
+.container-fluid {
+  margin: 0 auto;
+  width: 100%;
+}
+.row{
+	max-width: 100%;
+}
+.head{
+	text-align: center;
+	background-color: white;
+}
+.titulo{
+	color:#192951;
+	font-size: 30px;
+}
+.menu{
+	text-decoration: none;
+	color:#80808b;
+}
+.menu1 li{
+	list-style: none;
+	margin:10px 40px;
+	display: inline-block;
+	font-size: 20px;
+}
+.section1{
+	background-image: url(../img/dance_1.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	height: 375px;
+}
+.titulo2, .text1{
+	color:white;
+}
+.titulo2{
+	font-size: 70px;
+	padding:65px 0 30px 0;
+}
+.text1{
+	font-size: 12px;
+	margin-bottom: 50px;
+}
+.inscribete{
+	color: white;
+	font-family: 9px;
+	text-decoration: none;
+	padding:10px 20px;
+	background-color: #030c18;
+	border-radius: 3px;
+	margin-bottom: 50px;
+}
+.text2{
+	text-align: center;
+	font-size: 25px;
+	color:#2f2512;
+	padding: 50px 0 0 0;
+}
+.text2 img{
+	width: 200px;
+	padding: 0;
+}
+.section2{
+	background-image: url(../img/textura_2.jpg);
+	height: 450px;
+}
+.oferta{
+	text-decoration: none;
+	font-size: 17px;
+	color: white;
+	background-color: #192951;
+	border-radius: 5px;
+	padding: 20px 120px;
+}
+.profe1{
+	background-image: url(../img/instructor_4.jpg);
+	height: 320px;
+	background-size: 100%;
+	border: 2px #192951 solid;
+}
+.profe2{
+	background-image: url(../img/profesor_9.jpg);
+	height: 320px;
+	background-size: 100%;
+	border: 2px #192951 solid;
+}
+.instructor{
+	height: 320px;
+}
+.nuestros{
+	text-decoration: none;
+	font-size: 17px;
+	color: white;
+	background-color: #192951;
+	border-radius: 5px;
+	padding: 20px 120px;
+	position:absolute;
+	bottom:0
+	left:0;
+}
+.text3{
+	text-align: center;
+	font-size: 45px;
+	color:#2f2512;
+	padding: 100px 0px;
+}
+.section3{
+	background-image: url(../img/textura_2.jpg);
+	height: 300px;
+}
+.direccion{
+	background-color: #192951;
+}
+.googlemap{
+	padding: 60px;
+}
+.dir{
+	color:white;
+	font-size: 16px;
+	padding: 60px 0 30px 0; 
+}
+.dirtitulo{
+	color:white;
+	font-size: 30px;
+	padding: 0 0 10px 0; 
+}
+.dir2{
+	color:white;
+	font-size: 16px;
+}
+.contact{
+	background-image: url(../img/shoes_1.jpg);
+	height: 600px;
+	background-size:70%;
+	background-position: right;
+	background-repeat: no-repeat;
+	background-color: white;
+}
+form{
+	width: 450px;
+	margin: auto;
+	padding: 10px 20px;
+	box-sizing: border-box;
+	margin-top:20px;
+	border-radius: 7px;
+}
+input, textarea{
+	width: 100%;
+	margin-bottom: 20px;
+	padding: 7px;
+	box-sizing: border-box;
+	font-size: 17px;
+}
+textarea{
+	height: 100px;
+}
+#boton{
+	background-color: #192951;
+	color: white;
+	padding: 20px;
+	border-radius: 7px;
+	border:none;
+}
+h2{
+	color:#192951;
+	font-size: 30px;
+}
+.foot{
+	background-color: #192951;
+}
+.footext{
+	color:white;
+	font-size: 12px;
+	padding: 20px 0;
+}

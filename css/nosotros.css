@@ -1,0 +1,141 @@
+
+body{
+	font-family: "Montserrat";
+}
+.container {
+  margin: 0 auto;
+  width: 90%;
+}
+.container-fluid {
+  margin: 0 auto;
+  width: 100%;
+}
+.row{
+	max-width: 100%;
+}
+.head{
+	text-align: center;
+	background-color: white;
+}
+.titulo{
+	color:#192951;
+	font-size: 30px;
+}
+.menu{
+	text-decoration: none;
+	color:#80808b;
+}
+.menu1 li{
+	list-style: none;
+	margin:10px 40px;
+	display: inline-block;
+	font-size: 20px;
+}
+.section1{
+	background-image: url(../img/dance_7.jpg);
+	background-repeat: no-repeat;
+	background-size: 140%;
+	height: 550px;
+	text-align: center;
+}
+.nosot{
+	background-color: rgba(0, 0, 0, 0.5);
+	padding: 40px;
+	position: relative;
+	top:150px;
+}
+.titulo2, .text1{
+	color:white;
+}
+.titulo2{
+	text-align: center;
+	color:#80808b;
+	font-size: 25px;
+	padding: 40px 0;
+}
+.text1{
+	font-size: 15px;
+	margin-bottom: 50px;
+}
+.text2{
+	text-align: center;
+	font-size: 15px;
+	color:#80808b;
+	padding: 30px 0;
+}
+.section2{
+	background-image: url(../img/cubes.png);
+	height: 400px;
+}
+.pilar{
+	padding: 30px 80px;
+}
+.titulo3{
+	text-align: center;
+	font-size: 35px;
+	padding: 100px 0;
+}
+.nombre{
+	color:black;
+	font-size: 20px;
+	padding: 15px 0;
+}
+.descripcion{
+	color:#80808b;
+	font-size: 15px;
+}
+.text3{
+	text-align: center;
+	font-size: 45px;
+	color:#2f2512;
+	padding: 100px 0px;
+}
+.section3{
+	background-image: url(../img/cubes.png);
+	height: 300px;
+}
+.contact{
+	background-image: url(../img/shoes_1.jpg);
+	height: 600px;
+	background-size:70%;
+	background-position: right;
+	background-repeat: no-repeat;
+	background-color: white;
+}
+form{
+	width: 450px;
+	margin: auto;
+	padding: 10px 20px;
+	box-sizing: border-box;
+	margin-top:20px;
+	border-radius: 7px;
+}
+input, textarea{
+	width: 100%;
+	margin-bottom: 20px;
+	padding: 7px;
+	box-sizing: border-box;
+	font-size: 17px;
+}
+textarea{
+	height: 100px;
+}
+#boton{
+	background-color: #192951;
+	color: white;
+	padding: 20px;
+	border-radius: 7px;
+	border:none;
+}
+h2{
+	color:#192951;
+	font-size: 30px;
+}
+.foot{
+	background-color: #192951;
+}
+.footext{
+	color:white;
+	font-size: 12px;
+	padding: 20px 0;
+}
